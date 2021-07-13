@@ -1,0 +1,21 @@
+.block {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+.inline-block {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+.inline {
+  display: inline;
+  width: 100px;
+  height: 100px;
+}
+.hidden {
+  display: none;
+}
+p {
+  background-color: #a0c5e9;
+}
