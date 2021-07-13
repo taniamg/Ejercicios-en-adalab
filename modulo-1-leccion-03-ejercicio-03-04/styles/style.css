@@ -1,0 +1,6 @@
+.texto1 {
+  width: 100px;
+  height: 100px;
+  background-image: url(https://cdn.pixabay.com/photo/2021/03/08/12/41/jackie-matthews-photography-6079016_960_720.jpg);
+  overflow: scroll;
+}

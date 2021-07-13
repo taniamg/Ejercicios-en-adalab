@@ -1,0 +1,10 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-image: url(https://pixabay.com/get/g2e96a8be3527bb835534da0e9f0c5b26f573c73209b6b63ec22b01d6fcda1c195911fa492e385edbbb4c7586cc649752_640.png);
+  margin: auto;
+}
+.box2 {
+  background-image: url(https://pixabay.com/get/g2e96a8be3527bb835534da0e9f0c5b26f573c73209b6b63ec22b01d6fcda1c195911fa492e385edbbb4c7586cc649752_640.png);
+  box-sizing: border-box;
+}
