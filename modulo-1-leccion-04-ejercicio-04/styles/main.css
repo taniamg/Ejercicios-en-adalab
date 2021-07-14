@@ -2,17 +2,21 @@
   font-size: 20px;
   font-family: fantasy;
 }
-.body {
-  width: 500px;
-  height: 500px;
-  border: 10 solid black;
+.box {
+  border: 2px solid black;
+  width: 50%;
+  background-color: blueviolet;
+  box-sizing: border-box;
+  padding: 10px;
 }
-.container {
-  border: 5px solid black;
+.box-full {
+  border: 2px solid black;
+  width: 100%;
+  background-color: chartreuse;
 }
-.container {
-  height: 500px;
+
+.wrap-container {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
 }

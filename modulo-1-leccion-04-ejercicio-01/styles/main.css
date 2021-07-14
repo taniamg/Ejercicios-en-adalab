@@ -13,7 +13,7 @@
   height: 500px;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  box-sizing: border-box;
 }
 
 .container2 {
@@ -21,14 +21,9 @@
   height: 500px;
   display: flex;
   flex-direction: row;
-}
-.item {
   box-sizing: border-box;
-  background-color: darkseagreen;
-  width: 30;
-
-  border: 1px solid rgb(209, 26, 26);
 }
 .item {
-  flex-grow: inherit;
+  background-color: darkseagreen;
+  border: 1px solid rgb(209, 26, 26);
 }
