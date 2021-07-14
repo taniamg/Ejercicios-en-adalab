@@ -1,0 +1,19 @@
+.columns {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+}
+
+.main-column {
+  flex: 2;
+}
+.column {
+  display: flex;
+  flex-direction: column; /* Makes the articles stacked vertically */
+}
+
+.article {
+  flex: 1; /* Stretches the articles to fill up the remaining space */
+}
