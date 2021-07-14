@@ -1,6 +1,9 @@
-.texto1 {
-  width: 100px;
-  height: 100px;
+.span {
+  margin: 20px;
+  padding: 20px;
+  width: 80px;
+  height: 50px;
   background-image: url(https://cdn.pixabay.com/photo/2021/03/08/12/41/jackie-matthews-photography-6079016_960_720.jpg);
-  overflow: scroll;
+  border: 2px solid blue;
+  display: inline-block;
 }
