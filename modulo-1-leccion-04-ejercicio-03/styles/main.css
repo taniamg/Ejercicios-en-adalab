@@ -1,0 +1,14 @@
+.container {
+  height: 100px;
+  background-color: lightskyblue;
+  border: 1px blue;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}

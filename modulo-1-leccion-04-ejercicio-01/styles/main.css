@@ -1,0 +1,34 @@
+.container {
+  border: black 1px solid;
+  margin: auto;
+}
+
+.container2 {
+  border: black 1px solid;
+}
+/* flex */
+
+.container {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.container2 {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+}
+.item {
+  box-sizing: border-box;
+  background-color: darkseagreen;
+  width: 30;
+
+  border: 1px solid rgb(209, 26, 26);
+}
+.item {
+  flex-grow: inherit;
+}
