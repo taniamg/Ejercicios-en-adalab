@@ -1,0 +1,36 @@
+.father {
+  height: 1100px;
+  width: 900px;
+  background-color: lightgoldenrodyellow;
+  position: relative;
+  top: 10px;
+  left: 15px;
+}
+.son-1 {
+  height: 300px;
+  width: 300px;
+  padding: 30px;
+  margin: 40px;
+  background-color: palevioletred;
+  position: relative;
+  top: 100px;
+  left: 50px;
+}
+.son-2 {
+  height: 300px;
+  width: 300px;
+  padding: 30px;
+  margin: 40px;
+  background-color: rgb(74, 32, 190);
+  top: 150px;
+  left: 320px;
+}
+.son-3 {
+  height: 300px;
+  width: 300px;
+  padding: 30px;
+  margin: 40px;
+  background-color: rgb(37, 163, 85);
+  top: 180px;
+  left: 240px;
+}
