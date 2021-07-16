@@ -1,12 +1,13 @@
 .box {
   width: 700px;
-  background-color: rgb(70, 114, 172);
+  position: relative;
 }
 .footer {
   height: 100px;
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
   background-color: yellow;
+  width: 100px;
   position: fixed;
-  z-index: 990;
+  bottom: 10px;
 }
