@@ -1,0 +1,20 @@
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+}
+.logo {
+  height: 35px;
+}
+.menu {
+  height: 20px;
+}
+.trial {
+  background-color: cornflowerblue;
+  height: 50vh;
+}
+.footer {
+  background-color: black;
+}

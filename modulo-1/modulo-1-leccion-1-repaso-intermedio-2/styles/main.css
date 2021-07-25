@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos de la página */
+
+:root {
+  --fontsize-title: 36px;
+  --color-firered: #cc212a;
+  --size-icon: 52px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: var(--color-firered);
+  text-align: center;
+}
+
+.header {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+}
+
+.title {
+  font-size: var(--fontsize-title);
+  font-weight: 800;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: solid 3px var(--color-firered);
+  position: fixed;
+  bottom: 0;
+  /* width: 100vw; */
+  left: 0;
+  right: 0;
+  padding-bottom: 36px;
+}
+
+.icon {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  width: var(--size-icon);
+  height: var(--size-icon);
+  line-height: var(--size-icon);
+  border-radius: calc(var(--size-icon) / 2); /* 50% */
+  background-color: var(--color-firered);
+  color: white;
+  font-weight: bold;
+  transform: translateY(-50%);
+  /* margin: auto; */
+}
+
+.copy {
+  color: black;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px;
+  }
+
+  .icon {
+    transform: none;
+    order: 1;
+  }
+}

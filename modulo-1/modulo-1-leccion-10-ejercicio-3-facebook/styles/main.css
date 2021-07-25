@@ -1,0 +1,94 @@
+.body {
+  box-sizing: border-box;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column;
+  width: 500px;
+  height: 700px;
+  border: rgba(17, 11, 1, 0.829) 3px dotted;
+  margin-left: 25%;
+  margin-top: 15px;
+  padding: 5px 15px 5px 10px; */
+  font-family: "Anton", sans-serif;
+  background: linear-gradient(to bottom, #6a82fb, #fc5c7d);
+}
+.form {
+  position: relative;
+  width: 30%;
+  height: auto;
+  border-radius: 10px;
+  background-color: beige;
+}
+
+.form__main {
+  width: 500px;
+}
+.form__title {
+  text-transform: uppercase;
+  width: 475px;
+  font-size: 25px;
+  margin: 10px 0 15px 15px;
+}
+.form__title-2 {
+  text-transform: capitalize;
+  font-size: 15px;
+  margin: 10px 0 15px 15px;
+}
+.form__container {
+  width: 475px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.form__name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px 10px 5px 5px;
+}
+.form__email {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 100%;
+  margin: 0 10px 5px 5px;
+}
+.form__birth {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 100%;
+  margin: 10px 10px 15px 5px;
+}
+.form__heigth {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5px;
+}
+.form__comments {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.form__gender {
+  margin: 10px 0 10px 9px;
+}
+.form__create {
+  font-size: 10px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+.form__reset {
+  border-radius: 45px;
+  margin-left: 9px;
+}
+.form__submit {
+  border-radius: 50px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  background: linear-gradient(to bottom, #6a82fb, #fc5c7d);
+}
