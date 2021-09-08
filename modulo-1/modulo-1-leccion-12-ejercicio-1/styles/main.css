@@ -1,0 +1,24 @@
+@keyframes move {
+  from {
+    transform: translateY(600vh);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.main__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.popup {
+  width: 300px;
+  height: 300px;
+  border: dotted 3px blue;
+  background-color: aquamarine;
+  animation-name: move;
+  animation-duration: 2s;
+}

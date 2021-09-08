@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <title>formulario</title>
+  </head>
+
+  <body class="body">
+    <div class="form">
+      <header class="form__header">
+        <h1 class="form__title">create an account</h1>
+        <h2 class="form__title-2">it´s free and allways will be</h2>
+      </header>
+      <main class="form__main">
+        <form class="form__container" action="/singup" method="POST">
+          <div class="form__name">
+            <input
+              class="form__name"
+              placeholder="first name"
+              id="firstName"
+              type="text"
+              name="firstName"
+            />
+
+            <input
+              class="form__name"
+              placeholder="last name"
+              id="lastName"
+              type="text"
+              name="lastName"
+            />
+          </div>
+          <div class="form__email">
+            <input
+              class="form__email"
+              placeholder="email or mobile number"
+              type="emailtel"
+              name="email-tel"
+              id="email-tel"
+            />
+            <input
+              class="form__email"
+              placeholder="re-enter email or mobile number"
+              type="text"
+              name="email-tel"
+              id="email-tel"
+            />
+          </div>
+          <div class="form__birth">
+            <label class="form__birth" for="birthday">Birthday:</label>
+            <input
+              class="form__birth-1"
+              type="date"
+              id="birthday"
+              name="birthday"
+            />
+            <p class="form__birth-1">
+              <a
+                class="form__link"
+                href="https://es-es.facebook.com/help/1735443093393986/?helpref=hc_fnav"
+                target="_blank"
+                >Why do i need to provide my date of birth?</a
+              >
+            </p>
+          </div>
+
+          <div class="form__heigth">
+            <label class="form__heigth" for="heigth">Heigth:</label>
+            <input
+              class="form__heigth"
+              type="number"
+              name="numero"
+              min="50"
+              max="250"
+              value="165"
+            />
+            <p class="form__heigth">cm</p>
+          </div>
+          <div>
+            <label class="form__comments" for="comments">My profile:</label>
+            <textarea
+              class="form__comments"
+              id="comments"
+              name="comments"
+              rows="8"
+              cols="50"
+            ></textarea>
+          </div>
+          <div class="form__gender">
+            <label for="gender">
+              <input
+                class="form__gender"
+                id="gender"
+                type="radio"
+                value="female"
+                name="gender"
+              />
+              female
+            </label>
+
+            <label for="gender">
+              <input
+                class="form__gender"
+                id="gender"
+                type="radio"
+                value="male"
+                name="gender"
+              />
+              male
+            </label>
+          </div>
+          <div class="form__create">
+            <p>
+              by clicking Create an account, you agree to our terms and that you
+              have read our data polycy, including our cookie use.
+            </p>
+            <label for="create">
+              <input
+                class="form__create"
+                id="create"
+                type="radio"
+                value="agree"
+                name="create"
+              />
+              agree
+            </label>
+            <label for="create">
+              <input
+                class="form__create"
+                id="create"
+                type="radio"
+                value="notagree"
+                name="create"
+              />
+              not agree
+            </label>
+            <div>
+              <input class="form__reset" type="reset" value="reset" />
+            </div>
+          </div>
+          <div>
+            <input
+              class="form__submit"
+              type="submit"
+              value="create an account"
+            />
+          </div>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
