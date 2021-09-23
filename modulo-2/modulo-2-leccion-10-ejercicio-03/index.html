@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <form action="">
+      <h1>Buscador usuarios GitHub</h1>
+      <label for="user">Escribe el nombre del usuario que quieres encontrar</label>
+      <input class="js_text" type="text">
+      <input class="js_btn" type="button" value="Buscar">
+    </form>
+    <div class="hidden js_container">
+      <h2>Nombre de usuario:</h2>
+      <p class="js_userName"></p>
+      <img class="js_userAvatar" src="" alt="">
+      <h2>Número de repositorios:</h2>
+      <p class="js_repoNumber"></p>
+    </div>
+    <script type="text/javascript" src="./js/main.js"></script>
+  </body>
+</html>

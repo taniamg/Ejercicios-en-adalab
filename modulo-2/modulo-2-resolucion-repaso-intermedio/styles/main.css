@@ -1,0 +1,22 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #ffcc00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.face {
+  width: 70px;
+  height: 70px;
+  font-size: 50px;
+}
+
+.background-Y {
+  background-color: pink;
+}
+.background-n {
+  background-color: red;
+}
