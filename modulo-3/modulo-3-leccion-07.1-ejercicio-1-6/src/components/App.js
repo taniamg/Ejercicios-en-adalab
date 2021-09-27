@@ -1,6 +1,6 @@
 import "../styles/main.scss";
 import Preview from "./preview";
-import InputGroupTxt from "./InputGroupTxt";
+import InputGroupText from "./InputGroupText";
 
 // Fichero src/components/App.js
 import { useState } from "react";
@@ -72,13 +72,13 @@ const App = () => {
         <h2>Rellena tus datos para finalizar la compra:</h2>
         <div className="form">
           {/* name */}
-          <InputGroupTxt
-            labelText={label}
+          <InputGroupText
+            labelText="Escribe tu nombre:"
             inputName={name}
             inputId={name}
-            inputPlaceholder={Maria Garcia}
+            inputPlaceholder="Maria García"
             inputValue={name}
-            handleChange={handleName()}
+            handleChange={handleInputChange()}
           />
 
           {/* email */}
