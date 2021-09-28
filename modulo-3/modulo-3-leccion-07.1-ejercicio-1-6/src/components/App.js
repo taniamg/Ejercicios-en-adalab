@@ -78,7 +78,7 @@ const App = () => {
             inputId={name}
             inputPlaceholder="Maria García"
             inputValue={name}
-            handleChange={handleInputChange()}
+            handleName={handleChange}
           />
 
           {/* email */}
